@@ -1,0 +1,157 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+}
+
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+}
+
+.home-page {
+  background-image: url("image/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+
+.text-box {
+  display: inline-block;
+  padding: 20px;
+  border: 2px solid #4caf50;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: left;
+  font-family: "Gupter", sans-serif;
+}
+
+.text-box h2 {
+  margin-top: 0;
+  color: #4caf50;
+}
+
+.text-box p {
+  margin: 10px 0;
+}
+
+.profile-gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.profile-image {
+  border: 4px solid #4caf50;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.profile-image img {
+  display: block;
+  width: 200px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #45a049;
+}
+
+.social-media {
+  margin-top: 20px;
+}
+
+.social-media h2 {
+  margin-bottom: 10px;
+}
+
+.social-link {
+  display: inline-block;
+  margin: 5px 10px;
+  padding: 10px 20px;
+  color: white;
+  background-color: #333;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.social-link:hover {
+  background-color: #555;
+}
+
+.bordered-text {
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid #4caf50;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+footer {
+  background-color: #180161;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
